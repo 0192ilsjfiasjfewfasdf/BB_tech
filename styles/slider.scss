@@ -7,7 +7,7 @@
   background-size: auto 120%;
   h1 {
     font-size: 48px;
-    color: #212733;
+    color: $dark-grey;
     font-weight: 100;
     text-transform: uppercase;
     margin: 38px 0px;
@@ -15,7 +15,7 @@
   }
   h2 {
     font-size: $lg;
-    color: #707071;
+    color: $grey;
     letter-spacing: 0.07em;
   }
   img {
