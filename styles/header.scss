@@ -1,0 +1,26 @@
+.top-header {
+  padding: 80px 0px;
+
+  .header__nav {
+    float: right;
+
+    ul {
+      display: inline-block;
+    }
+    li {
+      float: left;
+      display: inline-block;
+    }
+    a {
+      padding: 15px 30px;
+      text-decoration: none;
+      color: $dark-grey;
+      text-transform: uppercase;
+      display: inline-block;
+    }
+    .contact-button {
+      background-color: $dark-grey;
+      color: $white;
+    }
+  }
+}
