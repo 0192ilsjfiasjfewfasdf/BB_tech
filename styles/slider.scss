@@ -1,0 +1,28 @@
+.slider {
+  padding: 0px 0px 265px;
+  position: relative;
+  background-image: url("../assets/bg-slider.png");
+  background-repeat: no-repeat;
+  background-position: 120% top;
+  background-size: auto 120%;
+  h1 {
+    font-size: 48px;
+    color: #212733;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 38px 0px;
+    letter-spacing: 2px;
+  }
+  h2 {
+    font-size: $lg;
+    color: #707071;
+    letter-spacing: 0.07em;
+  }
+  img {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+}

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: HelveticaNeueLight;
+  src: url("../assets/fonts/HelveticaNeueLight.ttf");
+}
+
+@font-face {
+  font-family: HelveticaNeueBold;
+  src: url("../assets/fonts/HelveticaNeueBold.ttf");
+}
+
+body {
+  font-size: $sm;
+  font-family: "HelveticaNeueLight";
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.header__container,
+.slider__container,
+.service__container-items {
+  max-width: 1170px;
+  margin: auto;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
