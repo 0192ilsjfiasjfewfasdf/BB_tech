@@ -1,0 +1,123 @@
+@media screen and (min-width: map-get($grid-breakpoints, md)) {
+  .top-header {
+    .header__nav {
+      display: block !important;
+    }
+  }
+}
+@media screen and (max-width: map-get($grid-breakpoints, xl)) {
+  .header__container,
+  .slider__container,
+  .service__container-items {
+    max-width: 100%;
+    margin: 0px 15px;
+  }
+  .top-header {
+    padding: 40px 0px 80px;
+  }
+  .slider {
+    background-size: auto 105%;
+    padding: 0px 0px 165px;
+    background-position: 150% 25px;
+
+    h1 {
+      font-size: 38px;
+    }
+  }
+  .service__container {
+    padding-bottom: 100px;
+
+    &:before {
+      top: -80px;
+    }
+  }
+  .slider__container-items {
+    width: 100%;
+    max-width: 550px;
+
+    .slick-dots {
+      justify-content: start;
+    }
+  }
+}
+@media screen and (max-width: map-get($grid-breakpoints, lg)) {
+  .top-header {
+    padding: 35px 0px;
+  }
+  .service__container {
+    .service__container-item {
+      width: 33.333%;
+    }
+  }
+}
+@media screen and (max-width: map-get($grid-breakpoints, md)) {
+  .slider {
+    background-size: auto 70%;
+    background-position: 150% bottom;
+  }
+}
+@media screen and (max-width: map-get($grid-breakpoints, md)-1) {
+  .top-header {
+    .header__container {
+      display: block;
+      cursor: pointer;
+      float: right;
+      font-size: $lg;
+    }
+    .header__nav {
+      width: 100%;
+      display: none;
+      ul {
+        width: 100%;
+      }
+      li {
+        float: none;
+        width: 100%;
+      }
+      a {
+        padding: 15px 5px;
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+  .slider {
+    background: none;
+    padding: 0px 0px 125px;
+
+    h1 {
+      font-size: 24px;
+      margin: 15px 0px;
+    }
+  }
+
+  .service__container {
+    padding-bottom: 80px;
+    padding-top: 30px;
+
+    &:before {
+      top: -40px;
+    }
+    .service__container-item {
+      width: 100%;
+      margin-bottom: 30px;
+      padding: 15px 0 0px;
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    }
+  }
+  .slider-container {
+    padding-right: 0;
+
+    .slick-slide {
+      padding: 0;
+    }
+    .slick-dots {
+      padding: 20px 0;
+    }
+  }
+  .top-header {
+    padding: 25px 0px;
+  }
+}

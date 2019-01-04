@@ -5,6 +5,8 @@
   background-repeat: no-repeat;
   background-position: 120% top;
   background-size: auto 120%;
+  justify-content: flex-start;
+
   h1 {
     font-size: 48px;
     color: $dark-grey;
@@ -13,11 +15,13 @@
     margin: 38px 0px;
     letter-spacing: 2px;
   }
+
   h2 {
     font-size: $lg;
     color: $grey;
     letter-spacing: 0.07em;
   }
+
   img {
     width: 50%;
     position: absolute;

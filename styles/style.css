@@ -192,6 +192,7 @@ ul {
 }
 .top-header .header__nav li {
   float: left;
+  list-style-type: none;
   display: inline-block;
 }
 .top-header .header__nav a {
@@ -389,7 +390,7 @@ img.shape-top {
     padding: 35px 0px;
   }
 
-  .service__container .services__container-item {
+  .service__container .service__container-item {
     width: 33.333%;
   }
 }
@@ -439,12 +440,12 @@ img.shape-top {
   .service__container:before {
     top: -40px;
   }
-  .service__container .services__container-item {
+  .service__container .service__container-item {
     width: 100%;
     margin-bottom: 30px;
     padding: 15px 0 0px;
   }
-  .service__container .services__container-item:last-child {
+  .service__container .service__container-item:last-child {
     margin-bottom: 0px;
   }
 
